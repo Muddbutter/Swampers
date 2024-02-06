@@ -63,6 +63,23 @@ h2 {text-align: center;}
 
 h3 {text-align: center;}
 
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 
 
 </style>
@@ -99,10 +116,22 @@ h3 {text-align: center;}
     
 <h3>What is this all about?</h3>
 
-<h2>This is my little time killer! I experiment/modify this site to what I want when I want it! It is also like a web time capsule!</h2>
+<h2>Think of this like a Swamp Wiki, you can find a lot about me here! Look at some of the videos below to see my interests!</h2>
 
 
 
+
+<div class="row">
+  <div class="column">
+ <div style="position:relative; width:100%; height:0px; padding-bottom:56.250%"><iframe allow="fullscreen" allowfullscreen height="100%" src="https://streamable.com/e/x3a29j?nocontrols=1" width="100%" style="border:none; width:100%; height:100%; position:absolute; left:0px; top:0px; overflow:hidden;"></iframe></div>
+</div>
+  <div class="column">
+    <div style="position:relative; width:100%; height:0px; padding-bottom:56.338%"><iframe allow="fullscreen" allowfullscreen height="100%" src="https://streamable.com/e/b02kol?nocontrols=1" width="100%" style="border:none; width:100%; height:100%; position:absolute; left:0px; top:0px; overflow:hidden;"></iframe></div>
+  </div>
+  <div class="column">
+    <div style="position:relative; width:100%; height:0px; padding-bottom:56.250%"><iframe allow="fullscreen" allowfullscreen height="100%" src="https://streamable.com/e/ocnhxc?nocontrols=1" width="100%" style="border:none; width:100%; height:100%; position:absolute; left:0px; top:0px; overflow:hidden;"></iframe></div>
+  </div>
+</div>
 
 
 
